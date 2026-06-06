@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "shivank-katiyar-portfolio"
+  },
+  "targets": {
+    "shivank-katiyar-portfolio": {
+      "hosting": {
+        "cafe": [
+          "brewhavencafe"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

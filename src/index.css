@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-dark font-sans antialiased;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.shadow-sm-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.shadow-md-card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
